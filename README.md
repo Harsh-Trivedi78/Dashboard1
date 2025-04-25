@@ -30,16 +30,30 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/Harsh-Trivedi78/Dashboard1.git
-   cd Dashboard1
-   Install dependencies:
-2.**npm install:**
-   
-3. **npm run dev** 
-4. **Visit http://localhost:3000**  
+    ```bash
+    git clone https://github.com/Harsh-Trivedi78/Dashboard1.git
+    cd Dashboard1
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Visit:**
+
+    [http://localhost:3000](http://localhost:3000)
+
 ---
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by [Harsh Trivedi](https://github.com/Harsh-Trivedi78)
+Made by [Harsh Trivedi](https://github.com/Harsh-Trivedi78)
+
