@@ -1,4 +1,4 @@
-# 📊 Dashboard
+# 📊 Analytics Dashboard
 
 **Dashboard1** is a responsive and interactive analytics dashboard built with **Next.js 14**, **Tailwind CSS**, and **Chart.js**. It provides a clean UI and dynamic data visualizations, making it ideal for showcasing metrics, trends, or business KPIs.
 
