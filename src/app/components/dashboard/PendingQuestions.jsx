@@ -1,7 +1,5 @@
-import lft from "../../../../public/lft.svg";
-import rht from "../../../../public/rht.svg";
-import av1 from "../../../../public/av1.svg";
-import av2 from "../../../../public/av2.svg";
+"use client";
+
 import Image from "next/image";
 
 export default function ChatDashboard() {
@@ -11,16 +9,19 @@ export default function ChatDashboard() {
       handle: "@phoenix",
       time: "5min ago",
       question: "What are the requirements for opening a new store?",
-      avatar: av1,
+      avatar: "/av1.svg",
     },
     {
       name: "Koray Okumus",
       handle: "@koray",
       time: "4hr ago",
       question: "How do I manage inventory effectively?",
-      avatar: av2,
+      avatar: "/av2.svg",
     },
   ];
+
+  const lft = "/lft.svg";
+  const rht = "/rht.svg";
 
   return (
     <div className="bg-white w-full h-full flex flex-col sm:flex-row rounded-2xl shadow overflow-hidden">
@@ -29,41 +30,33 @@ export default function ChatDashboard() {
         <div className="flex justify-between items-center mb-6">
           <h2 className="font-semibold text-lg">Pending Questions</h2>
           <span className="text-xs bg-blue-600 text-white px-2 py-0.5 rounded-full font-medium">
-  02
-</span>
-
+            02
+          </span>
         </div>
 
         <ul className="divide-y divide-gray-200">
           {questions.map((q, idx) => (
-          <li key={idx} className="py-4 flex gap-3 items-start">
-          <div className="flex items-center gap-2">
-            {/* Blue small circle */}
-            <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-        
-            {/* Avatar */}
-            <Image
-              src={q.avatar}
-              alt={q.name}
-              width={36}
-              height={36}
-              className="rounded-full object-cover"
-            />
-          </div>
-        
-          {/* Text Content */}
-          <div className="flex-1">
-            <div className="flex justify-between text-sm">
-              <span className="font-semibold">{q.name}</span>
-              <span className="text-gray-400 text-xs">{q.time}</span>
-            </div>
-            <div className="text-xs text-gray-500">{q.handle}</div>
-            <div className="text-sm text-gray-700 mt-1">{q.question}</div>
-          </div>
-        </li>
-        
+            <li key={idx} className="py-4 flex gap-3 items-start">
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                <Image
+                  src={q.avatar}
+                  alt={q.name}
+                  width={36}
+                  height={36}
+                  className="rounded-full object-cover"
+                />
+              </div>
 
-         
+              <div className="flex-1">
+                <div className="flex justify-between text-sm">
+                  <span className="font-semibold">{q.name}</span>
+                  <span className="text-gray-400 text-xs">{q.time}</span>
+                </div>
+                <div className="text-xs text-gray-500">{q.handle}</div>
+                <div className="text-sm text-gray-700 mt-1">{q.question}</div>
+              </div>
+            </li>
           ))}
         </ul>
       </div>
