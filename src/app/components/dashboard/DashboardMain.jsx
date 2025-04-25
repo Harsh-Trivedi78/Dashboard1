@@ -1,8 +1,6 @@
 import AccountProgress from "./AccountProgress";
 import FranchiseesOnboard from "./fraob";
 import KeyInsights from "./keyins";
-import FinancialWellbeing from "./FinancialWellbeing";
-// import ProspectLeads from "./prospetleads";
 import PendingQuestions from "./PendingQuestions";
 import HeaderBar from "./Headerbar";
 
