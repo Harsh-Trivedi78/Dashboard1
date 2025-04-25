@@ -23,7 +23,7 @@ export default function AccountProgress() {
 
       {/* Progress Circle */}
       <div className="flex flex-col items-center mb-6">
-        <div className="relative w-32 h-32 sm:w-40 sm:h-40">
+        <div className="font-bold  relative w-32 h-32 sm:w-40 sm:h-40">
           <CircularProgressbar
             value={progress}
             text={`${progress}%`}
@@ -37,7 +37,7 @@ export default function AccountProgress() {
           />
         </div>
       </div>
-
+      <div className="w-full border-t border-gray-200 mb-6"></div>
       {/* Steps Section */}
       <div className="space-y-4">
         <div className="bg-gray-100 p-4 rounded-lg">

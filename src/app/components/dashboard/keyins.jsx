@@ -1,8 +1,20 @@
 export default function KeyInsights() {
   const leads = [
-    { name: "Wade Warren", stage: "Initial Inquiry", img: "https://i.pravatar.cc/40?img=11" },
-    { name: "Ava Wright", stage: "Initial Inquiry", img: "https://i.pravatar.cc/40?img=12" },
-    { name: "Cody Fisher", stage: "Initial Inquiry", img: "https://i.pravatar.cc/40?img=13" },
+    {
+      name: "Wade Warren",
+      stage: "Initial Inquiry",
+      img: "/ww.svg", // saved in public folder
+    },
+    {
+      name: "Ava Wright",
+      stage: "Initial Inquiry",
+      img: "/aw.svg",
+    },
+    {
+      name: "Cody Fisher",
+      stage: "Initial Inquiry",
+      img: "/cf.svg",
+    },
   ];
 
   return (
@@ -21,7 +33,7 @@ export default function KeyInsights() {
               alt="Top Performer"
               className="w-10 h-10 mb-1 object-contain"
             />
-            <span className="bg-blue-100 text-blue-600 text-xs px-3 py-1 rounded-full">
+            <span className="bg-blue-100 text-[#2FC5FF] text-xs px-3 py-1 rounded-full">
               Top Performer
             </span>
           </div>

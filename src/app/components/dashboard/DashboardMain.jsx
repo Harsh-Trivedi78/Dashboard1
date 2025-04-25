@@ -2,7 +2,7 @@ import AccountProgress from "./AccountProgress";
 import FranchiseesOnboard from "./fraob";
 import KeyInsights from "./keyins";
 import FinancialWellbeing from "./FinancialWellbeing";
-import ProspectLeads from "./prospetleads";
+// import ProspectLeads from "./prospetleads";
 import PendingQuestions from "./PendingQuestions";
 import HeaderBar from "./Headerbar";
 
@@ -17,12 +17,8 @@ export default function DashboardMain() {
         <FranchiseesOnboard />
         <KeyInsights />
       </div>
-
-      {/* Middle Row */}
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <FinancialWellbeing />
-        <ProspectLeads />
-      </div> */}
+    
+   
 
       {/* Bottom Row */}
       <PendingQuestions />
