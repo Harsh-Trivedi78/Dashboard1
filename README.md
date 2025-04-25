@@ -24,6 +24,10 @@
 - **Fonts**: [Geist](https://vercel.com/font) via `next/font`
 
 ---
+## 📸 Screenshot
+
+![Dashboard Preview](/dashboard-preview.png)
+
 ## ⚙️ Installation & Setup
 
 To run this project locally, follow these steps:
