@@ -24,7 +24,19 @@
 - **Fonts**: [Geist](https://vercel.com/font) via `next/font`
 
 ---
+## ⚙️ Installation & Setup
 
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+git clone https://github.com/Harsh-Trivedi78/Dashboard1.git
+cd Dashboard1
+Install dependencies:
+2. npm install  
+3. npm run dev  
+4. Visit http://localhost:3000  
 ---
 
 ## 🧑‍💻 Author
