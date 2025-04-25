@@ -27,8 +27,11 @@
 
 ## 📸 Screenshot
 
-![Dashboard Preview](/dashboard-preview.png)
 
+
+![Dashboard Preview](https://raw.githubusercontent.com/Harsh-Trivedi78/Dashboard1/master/public/dashboard-preview.png)
+
+---
 
 ## ⚙️ Installation & Setup
 
