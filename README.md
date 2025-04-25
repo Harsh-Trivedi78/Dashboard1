@@ -25,5 +25,8 @@
 
 ---
 
-## 📁 Project Structure
+---
 
+## 🧑‍💻 Author
+
+Made with ❤️ by [Harsh Trivedi](https://github.com/Harsh-Trivedi78)
